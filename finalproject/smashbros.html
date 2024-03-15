@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Super Smash Bros.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: url('img/supersmashbackground.jpg') no-repeat center center;
+            background-size: cover;
+            font-family: Times New Roman, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.3);
+            margin: 10px;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+
+        }
+        .about-section {
+            border: 5px solid #845FFF;
+            padding: 5px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            font-size: 20px;
+
+        }
+        .character-section {
+            background-color: #f2f2f2;
+            border-radius: 50%;
+            padding: 30px;
+            text-align: center;
+            margin-bottom: 20px;
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            color: #0B7200;
+        }
+        .character-text {
+            max-width: 85%;
+            margin: auto;
+            overflow: hidden;
+            text-align: center;
+            height: 100px;
+            color: #0B7200;
+        }
+        .character-image {
+            width: 175px;
+            height: auto;
+            display: block;
+            margin: 0 auto 10px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                margin: 0;
+                border-radius: 0;
+            }
+            .character-section {
+                margin-top: 15px;
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Super Smash Bros.</h1>
+
+        <section id="about" class="about-section">
+            <h2>About</h2>
+            <p><strong>Super Smash Bros. is a crossover video game created by Nintendo that incorporates a multitude of characters from different video games to battle each other in a stadium.</strong></p>
+        </section>
+
+        <!-- Favorite Characters Sections -->
+        <div class="character-section">
+            <img src="img/hero.jpg" alt="Character 1 Image" class="character-image">
+            <h3>Hero</h3>
+            <div class="character-text">
+                <p>Hero is a downloadable character for Smash Bros and recently has been one of my brother's favorite character. Hero comes from the video game Dragon Quest where he plays as one of the main protagonists. Hero has the ability to use his sword, shield and magic in his attacks and defenses.</p>
+            </div>
+        </div>
+
+        <div class="character-section">
+            <img src="img/kazuya.jpg" alt="Character 1 Image" class="character-image">
+            <h3>Kazuya</h3>
+            <div class="character-text">
+                <p>Kazuya is another downloadable character for Smash Bros. He's been James' favorite character for a while now and continues to be one of the most complex characters in the game. He originates from the video game Tekken, an old fighter game that Smash also takes lots of inspiration from. Kazuya deals with hand-to-hand combat with a twist</p>
+            </div>
+        </div>
+
+        <div class="character-section">
+            <img src="img/marth.jpg" alt="Character 1 Image" class="character-image">
+            <h3>Marth</h3>
+            <div class="character-text">
+                <p>One of the original characters of Smash Bros, James has been playing this character for a long time. Marth originates from an old game, Fire Emblem. Marth relies mainly on his sword for combat. He is quick and has a long reach which many players are often able to use to thier advantage. </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
